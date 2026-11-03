@@ -1,0 +1,93 @@
+# ==========================================
+# Python Bytecode & Cache
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+# Python tools / packages
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Django Specific
+# ==========================================
+# Local development database
+db.sqlite3
+db.sqlite3-journal
+
+# Uploaded user media files
+media/
+
+# Collected static files (uncomment if you want to keep static files out of repo)
+# static_cdn/
+# staticfiles/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# ==========================================
+# Configuration & Security (DO NOT COMMIT SECRETS)
+# ==========================================
+.env
+.env.*
+.secrets
+local_settings.py
+production_settings.py
+
+# ==========================================
+# Logs & Testing
+# ==========================================
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.mo
+*.pot
+.pytest_cache/
+.mypy_cache/
+
+# ==========================================
+# IDEs & System Files
+# ==========================================
+# JetBrains (PyCharm)
+.idea/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
