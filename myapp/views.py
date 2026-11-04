@@ -17,7 +17,7 @@ def index(request):
         'city': city,
         'is_sunny': is_sunny,
         'users': users
-    }
+}
     return render(request, 'home.html', context)
 
 
@@ -46,4 +46,4 @@ def students(request):
               {"names": "Lawrence Finley", "email": "nunc.sollicitudin.commodo@icloud.net", "score": 54, "age": 22},
               {"names": "Charles Mccall", "email": "nulla@aol.org", "score": 23, "age": 23}]
     data = {"students":scores}
-    return render(request, 'students.html')
+    return render(request, 'students.html', data)
