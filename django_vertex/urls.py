@@ -22,10 +22,10 @@ from myapp.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.index, name = 'home'),
-    path('about',views.about, name = 'about'),
-    path('services',views.services, name = 'services'),
-    path('students',views.students, name = 'students'),
+    path('', views.index, name='home'),
+    path('about', views.about, name='about'),
+    path('services', views.services, name='services'),
+    path('students', views.students, name='students'),
 ]
 
 # /,services,

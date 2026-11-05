@@ -1,3 +1,7 @@
-.navbar-brand{
+.navbar-brand {
     color: #016301;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav, .nav-link.show {
+    color: #038503;
 }
